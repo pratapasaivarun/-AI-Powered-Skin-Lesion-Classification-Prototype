@@ -1,0 +1,49 @@
+# ==============================================================
+# .gitignore — Skin Cancer Detection Project
+# ==============================================================
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large — do NOT commit)
+dataset/
+*.zip
+
+# Trained models (large)
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# Results (regenerated)
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kaggle credentials
+kaggle.json
